@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myParagraph" style="font-size: 50px;">hi,how are you</p>
+    <button id="changeColor" style="width: 100px; height: 50px; font-size: 30px;">click</button>
+
+    <script>
+        document.getElementById("changeColor").onclick = function() {
+            document.getElementById("myParagraph").style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>

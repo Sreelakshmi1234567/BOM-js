@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="openWindow" style="height: 50px; width: 200px; font-size: 30px;">click</button>
+
+    <script>
+        document.getElementById("openWindow").onclick = function() {
+            let url = "https://www.w3schools.com/";
+            let width = 400;
+            let height = 400;
+            window.open(url, "blank", "width=" + width + ",height=" + height);
+        }
+    </script> 
+</body>
+</html>
